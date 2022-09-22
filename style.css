@@ -77,3 +77,11 @@ html {
 .ingredients {
   width: 700px;
 }
+
+.main a {
+  color: RGB(254, 246, 158);
+  text-decoration: none;
+}
+.main a:hover {
+  color: tomato;
+}
