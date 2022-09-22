@@ -41,3 +41,27 @@ html {
 .main-container a:hover {
   color: tomato;
 }
+
+.main h1 {
+  margin: 10px 0 10px 15px;
+  letter-spacing: 3px;
+  color: RGB(254, 246, 158);
+}
+.main img {
+  display: block;
+  border-radius: 15px;
+  margin: 10px auto;
+  width: 400px;
+  height: 300px;
+}
+
+.ingredients-step {
+  display: flex;
+  gap: 20px;
+  color: RGB(254, 246, 158);
+  gap: 60px;
+}
+.main {
+  width: 80vw;
+  margin: 0 auto;
+}
