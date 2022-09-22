@@ -54,14 +54,26 @@ html {
   width: 400px;
   height: 300px;
 }
-
+.description {
+  color: RGB(254, 246, 158);
+}
+.description h3,
+.ingredients h3,
+.steps h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
 .ingredients-step {
   display: flex;
-  gap: 20px;
   color: RGB(254, 246, 158);
   gap: 60px;
+  justify-content: space-between;
 }
 .main {
   width: 80vw;
   margin: 0 auto;
+}
+.ingredients {
+  width: 700px;
 }
